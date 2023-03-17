@@ -40,5 +40,8 @@ export class EquipmentComponent implements OnInit {
     else
       return false
    }
-   
+   clearArrys(){
+    this.cargoHold=[];
+    this.cargoMass=0;
+   }
 }
